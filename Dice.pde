@@ -7,7 +7,6 @@ Die die6;
 Die die7;
 Die die8;
 Die die9;
-
 void setup()
 {
   noLoop();
