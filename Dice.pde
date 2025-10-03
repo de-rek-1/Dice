@@ -44,8 +44,6 @@ void draw()
   die7.roll();
   die8.roll();
   die9.roll();
-
-  // compute total of current rolls
   int total = bob.myRoll + bobby.myRoll + die3.myRoll + die4.myRoll +
               die5.myRoll + die6.myRoll + die7.myRoll + die8.myRoll + die9.myRoll;
   fill(255);
@@ -69,7 +67,6 @@ class Die
     myX = x;
     myY = y;
   }
-
   void roll()
   {
     myRoll = (int) ((Math.random() * 6) + 1);
